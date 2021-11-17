@@ -1,4 +1,4 @@
 body {
-  height: fit-content;
+  height: 100vh;
   background: linear-gradient(0deg, #285265, #442540, #1a1928);
 }
