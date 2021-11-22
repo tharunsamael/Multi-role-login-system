@@ -85,7 +85,6 @@ body {
     background-color: none;
     border: 0.2px solid #ffff;
     align-items: center;
-    float: left;
     border-radius: 15px;
     cursor: pointer;
   }
@@ -98,7 +97,6 @@ body {
     background-color: none;
     border: 0.2px solid #ffff;
     align-items: center;
-    float: left;
     border-radius: 15px;
     cursor: pointer;
   }
@@ -242,7 +240,7 @@ body {
   .login {
     width: 480px;
     position: relative;
-    top: 85%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: linear-gradient(
@@ -296,7 +294,6 @@ body {
     background-color: none;
     border: 0.2px solid #ffff;
     align-items: center;
-    float: left;
     border-radius: 15px;
     cursor: pointer;
   }
@@ -309,7 +306,6 @@ body {
     background-color: none;
     border: 0.2px solid #ffff;
     align-items: center;
-    float: left;
     border-radius: 15px;
     cursor: pointer;
   }

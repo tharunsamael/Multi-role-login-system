@@ -30,23 +30,34 @@
     />
   </head>
   <body>
-    <div class="login">
-      <h1>Login</h1>
-
-      <div class="roles" id="roles">
-        <div id="employee">
-          <button id="btn1" class="btn" onclick="studentClick()"></button>
-          <i id="tick1" class="far fa-check-circle fa-lg"></i>
-          <p id="e-content">STUDENT</p>
-        </div>
-        <div id="admin">
-          <button id="btn2" class="btn" onclick="teacherClick()"></button>
-          <i id="tick2" class="far fa-check-circle fa-lg"></i>
-          <p id="a-content">TEACHER</p>
-        </div>
-      </div>
+    <div class="signup">
+      <h1>Sign up</h1>
       <form>
         <div class="info">
+          <div class="email">
+            <i class="fas fa-envelope"></i>
+            <input
+              name="e-mail"
+              id="e-mail"
+              placeholder="Email Address"
+              type="email"
+              required
+            />
+          </div>
+          <div class="profession">
+            <i class="fas fa-briefcase"></i>
+            <input
+              list="profession"
+              name="profession"
+              id="pro"
+              placeholder="Select your role"
+              required
+            />
+            <datalist id="profession">
+              <option>Student</option>
+              <option>Teacher</option>
+            </datalist>
+          </div>
           <div class="username">
             <i class="fas fa-user"></i>
             <input
@@ -68,25 +79,21 @@
             />
             <i class="bi bi-eye-slash" id="togglePassword"></i>
           </div>
-          <div class="forgot-pwd">
-            <a href=""><span>Forgot Password?</span></a>
-          </div>
-          <div class="login-btn">
-            <button onclick="loginCheck()">LOGIN</button>
+          <div class="signup-btn">
+            <button onclick="loginCheck()">SIGN UP</button>
           </div>
           <div class="acc">
-            <span id="no-acc">Don't have an account?</span>
+            <span id="hav-acc">Already have an account?</span>
             <br />
-            <div class="r-su">
-              <a href=""
-                ><span>Sign up <i class="fas fa-greater-than"></i></span
+            <div class="l-su">
+              <a href="../login/index.html"
+                ><span>Login <i class="fas fa-greater-than"></i></span
               ></a>
             </div>
           </div>
         </div>
       </form>
     </div>
-    <div class="footer" style="margin-top: 5%"></div>
     <script src="./script.js" async defer></script>
   </body>
 </html>
